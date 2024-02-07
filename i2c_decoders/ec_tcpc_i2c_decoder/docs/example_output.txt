@@ -1,0 +1,1875 @@
+Read ALERT  [0x10] line: 71202 time: 77.9821464
+	duration: 256.00000000736145 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 71210 time: 77.9825469
+	duration: 243.69999999862557 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 71217 time: 77.9829533
+	duration: 271.200000000249 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 71223 time: 77.9832459
+	duration: 159.99999999394277 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 71230 time: 77.9835901
+	duration: 215.1000000054637 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 71237 time: 77.9839365
+	duration: 215.1000000054637 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 71245 time: 77.9843197
+	duration: 242.2999999964759 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 71252 time: 77.9846678
+	duration: 214.99999999718966 us
+	0x4
+Read ALERT  [0x10] line: 71260 time: 77.9995035
+	duration: 257.5999999976375 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 71268 time: 77.9999054
+	duration: 245.2000000090493 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 71275 time: 78.000263
+	duration: 222.5000000066757 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 71293 time: 78.0011792
+	duration: 764.5999999965625 us
+	0xb
+	0x0
+	0x8f
+	0x27
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+error processing line 71295
+expected: address, true, 0x73, false, 
+            got: address, true, 0x79, true, 
+bad line # 71295
+bad line # 71296
+bad line # 71297
+bad line # 71298
+bad line # 71299
+Read ALERT  [0x10] line: 71307 time: 78.0019742
+	duration: 311.00000001060835 us
+	CC Status Changed : set
+Write RECEIVE_DETECT  [0x2F] line: 71312 time: 78.0022838
+	duration: 134.00000000274304 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Write ALERT  [0x10] line: 71318 time: 78.0025683
+	duration: 161.09999999969205 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 71325 time: 78.0029141
+	duration: 216.49999999340253 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 71332 time: 78.0032619
+	duration: 216.60000000167656 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 71340 time: 78.0036507
+	duration: 247.9999999991378 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 71347 time: 78.0040003
+	duration: 216.60000000167656 us
+	0x4
+Read ALERT  [0x10] line: 71355 time: 78.0397762
+	duration: 246.60000001119897 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 71363 time: 78.0402242
+	duration: 244.99999999250122 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 71370 time: 78.0405773
+	duration: 217.8999999955522 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 71376 time: 78.0408731
+	duration: 162.8999999923053 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 71383 time: 78.0412203
+	duration: 218.20000000616346 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 71390 time: 78.0415696
+	duration: 218.20000000616346 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 71398 time: 78.041956
+	duration: 245.8000000018501 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 71405 time: 78.042307
+	duration: 217.9999999896154 us
+	0x4
+Read ALERT  [0x10] line: 71413 time: 78.0571886
+	duration: 293.2000000015478 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 71421 time: 78.0575914
+	duration: 245.2000000090493 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 71428 time: 78.0579446
+	duration: 218.00000000382624 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 71446 time: 78.0588514
+	duration: 755.2000000004 us
+	0xb
+	0x0
+	0x8f
+	0x29
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 71452 time: 78.0592195
+	duration: 220.49999999751435 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 71460 time: 78.0596766
+	duration: 319.59999999742195 us
+	CC Status Changed : set
+Write RECEIVE_DETECT  [0x2F] line: 71465 time: 78.0599859
+	duration: 133.70000000634263 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Write ALERT  [0x10] line: 71471 time: 78.0602707
+	duration: 161.4000000103033 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 71478 time: 78.0606165
+	duration: 216.69999999573974 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 71485 time: 78.0609643
+	duration: 216.79999998980293 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 71493 time: 78.0613533
+	duration: 248.19999998726416 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 71500 time: 78.0617029
+	duration: 216.80000000401378 us
+	0x4
+Read ALERT  [0x10] line: 71508 time: 78.0968477
+	duration: 257.7999999999747 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 71516 time: 78.0973002
+	duration: 245.2000000090493 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 71523 time: 78.0977045
+	duration: 269.10000001123535 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 71529 time: 78.0979989
+	duration: 161.49999999015563 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 71536 time: 78.0983486
+	duration: 220.79999999391475 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 71543 time: 78.0986965
+	duration: 216.69999999573974 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 71551 time: 78.0990811
+	duration: 243.8000000068996 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 71558 time: 78.0994307
+	duration: 216.80000000401378 us
+	0x4
+Read ALERT  [0x10] line: 71566 time: 78.1142157
+	duration: 258.900000005724 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 71574 time: 78.114619
+	duration: 246.40000000886175 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 71581 time: 78.1149736
+	duration: 219.40000000597593 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 71599 time: 78.1158838
+	duration: 758.4000000093738 us
+	0xb
+	0x0
+	0x8f
+	0x2b
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 71605 time: 78.1162314
+	duration: 164.2000000003918 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 71613 time: 78.1166827
+	duration: 313.89999999476004 us
+	CC Status Changed : set
+Write ALERT  [0x10] line: 71619 time: 78.1169803
+	duration: 163.79999999571737 us
+	CC Status Changed : clear
+Write RECEIVE_DETECT  [0x2F] line: 71624 time: 78.1172862
+	duration: 135.4999999989559 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Read ROLE_CONTROL  [0x1A] line: 71631 time: 78.117628
+	duration: 217.8999999955522 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 71638 time: 78.1179773
+	duration: 217.90000000976306 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 71646 time: 78.1183634
+	duration: 245.2000000090493 us
+	0x7f
+	0x2
+Read FAULT_STATUS_MASK  [0x15] line: 71653 time: 78.1187146
+	duration: 218.30000000022665 us
+	0x4
+Read ALERT  [0x10] line: 71661 time: 78.1394592
+	duration: 257.40000000951113 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 71669 time: 78.1398613
+	duration: 245.10000000077525 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 71676 time: 78.1402187
+	duration: 222.2000000102753 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 71682 time: 78.1405142
+	duration: 162.50000000184173 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 71689 time: 78.1408614
+	duration: 217.90000000976306 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 71696 time: 78.1412107
+	duration: 218.09999999788943 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 71704 time: 78.1415965
+	duration: 245.10000000077525 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 71711 time: 78.1419475
+	duration: 218.09999999788943 us
+	0x4
+Read ALERT  [0x10] line: 71719 time: 78.1569091
+	duration: 306.69999999588526 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 71727 time: 78.1573514
+	duration: 243.69999999862557 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 71734 time: 78.1577046
+	duration: 219.60000000831315 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 71752 time: 78.1586115
+	duration: 756.8000000048869 us
+	0xb
+	0x0
+	0x8f
+	0x2d
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 71758 time: 78.1589566
+	duration: 161.19999999375523 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 71766 time: 78.1593446
+	duration: 252.0999999973128 us
+	CC Status Changed : set
+Write RECEIVE_DETECT  [0x2F] line: 71771 time: 78.1596789
+	duration: 134.6000000097547 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Write ALERT  [0x10] line: 71777 time: 78.1599619
+	duration: 161.30000000202926 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 71784 time: 78.1603589
+	duration: 269.50000000169894 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 71791 time: 78.1607035
+	duration: 214.99999999718966 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 71799 time: 78.1610848
+	duration: 242.09999999413867 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 71806 time: 78.1614312
+	duration: 214.89999998891562 us
+	0x4
+Read ALERT  [0x10] line: 71814 time: 78.2563517
+	duration: 290.6999999936488 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 71822 time: 78.256753
+	duration: 243.69999999862557 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 71829 time: 78.2571078
+	duration: 219.5999999941023 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 71835 time: 78.2574355
+	duration: 194.8999999967782 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 71842 time: 78.2577811
+	duration: 216.50000000761338 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 71849 time: 78.2581712
+	duration: 258.7000000033868 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 71857 time: 78.2585542
+	duration: 242.2000000024127 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 71864 time: 78.2589024
+	duration: 215.19999999952688 us
+	0x4
+Read ALERT  [0x10] line: 71872 time: 78.2736083
+	duration: 251.30000000217478 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 71880 time: 78.2740363
+	duration: 243.8000000068996 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 71887 time: 78.2743896
+	duration: 219.80000001065036 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 71905 time: 78.2752965
+	duration: 756.9999999930133 us
+	0xb
+	0x0
+	0x8f
+	0x2f
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 71911 time: 78.2756038
+	duration: 161.19999999375523 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 71919 time: 78.276019
+	duration: 243.5000000104992 us
+	CC Status Changed : set
+Write RECEIVE_DETECT  [0x2F] line: 71924 time: 78.2763899
+	duration: 132.49999999231932 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Write ALERT  [0x10] line: 71930 time: 78.2766715
+	duration: 159.8000000058164 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 71937 time: 78.2770141
+	duration: 215.19999999952688 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 71944 time: 78.2773587
+	duration: 214.99999999718966 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 71952 time: 78.2777418
+	duration: 243.99999999502597 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 71959 time: 78.2780883
+	duration: 215.19999999952688 us
+	0x4
+Read ALERT  [0x10] line: 71967 time: 78.298665
+	duration: 255.9999999931506 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 71975 time: 78.2990654
+	duration: 243.6000000045624 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 71982 time: 78.2994203
+	duration: 219.5000000000391 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 71988 time: 78.2997158
+	duration: 162.40000000777854 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 71995 time: 78.3000618
+	duration: 216.79999998980293 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72002 time: 78.3004096
+	duration: 216.60000000167656 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72010 time: 78.3007942
+	duration: 243.79999999268875 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72017 time: 78.3011446
+	duration: 217.39999999681459 us
+	0x4
+Read ALERT  [0x10] line: 72025 time: 78.3160795
+	duration: 256.30000000376185 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 72033 time: 78.3164802
+	duration: 243.99999999502597 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 72040 time: 78.3168352
+	duration: 219.99999999877673 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 72058 time: 78.3177438
+	duration: 757.1000000012873 us
+	0xb
+	0x0
+	0x8f
+	0x21
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 72064 time: 78.318108
+	duration: 161.30000000202926 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 72072 time: 78.3185003
+	duration: 254.69999999927495 us
+	CC Status Changed : set
+Write RECEIVE_DETECT  [0x2F] line: 72077 time: 78.3188163
+	duration: 141.299999995681 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Write ALERT  [0x10] line: 72083 time: 78.3191008
+	duration: 161.39999999609245 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 72090 time: 78.3194467
+	duration: 216.80000000401378 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72097 time: 78.3198594
+	duration: 215.19999999952688 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72105 time: 78.3202453
+	duration: 245.10000000077525 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72112 time: 78.3205934
+	duration: 215.00000001140052 us
+	0x4
+Read ALERT  [0x10] line: 72120 time: 78.3578798
+	duration: 276.80000000884775 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 72128 time: 78.3583208
+	duration: 242.2000000024127 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 72135 time: 78.3586714
+	duration: 217.000000006351 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 72141 time: 78.3589626
+	duration: 159.99999999394277 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 72148 time: 78.3593054
+	duration: 215.29999999359006 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72155 time: 78.3596547
+	duration: 219.7999999964395 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72163 time: 78.3600363
+	duration: 242.4999999988131 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72170 time: 78.3603829
+	duration: 215.4000000018641 us
+	0x4
+Read ALERT  [0x10] line: 72178 time: 78.375261
+	duration: 284.1999999958489 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 72186 time: 78.3756594
+	duration: 242.40000000474993 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 72193 time: 78.3760098
+	duration: 216.80000000401378 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 72211 time: 78.3769125
+	duration: 752.5000000043747 us
+	0xb
+	0x0
+	0x8f
+	0x23
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 72217 time: 78.3772542
+	duration: 195.80000000019027 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 72225 time: 78.3776323
+	duration: 242.4999999988131 us
+	CC Status Changed : set
+Write ALERT  [0x10] line: 72231 time: 78.3779245
+	duration: 160.20000001049084 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 72238 time: 78.3782672
+	duration: 215.4000000018641 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72245 time: 78.3786886
+	duration: 292.0000000017353 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Write RECEIVE_DETECT  [0x2F] line: 72250 time: 78.3790339
+	duration: 164.7999999931926 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Read ALERT_MASK  [0x12] line: 72258 time: 78.3794182
+	duration: 262.200000008761 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72265 time: 78.3797946
+	duration: 245.19999999483844 us
+	0x4
+Read ALERT  [0x10] line: 72273 time: 78.4101968
+	duration: 247.50000000040018 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 72281 time: 78.4106211
+	duration: 288.80000000697237 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 72288 time: 78.410973
+	duration: 216.69999999573974 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 72294 time: 78.4112706
+	duration: 164.7999999931926 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 72301 time: 78.4116163
+	duration: 216.60000000167656 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72308 time: 78.4119643
+	duration: 216.79999998980293 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72316 time: 78.412349
+	duration: 243.9000000009628 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72323 time: 78.4126986
+	duration: 216.69999999573974 us
+	0x4
+Read ALERT  [0x10] line: 72331 time: 78.4276086
+	duration: 257.3999999953003 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 72339 time: 78.4280109
+	duration: 245.30000000311247 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 72346 time: 78.4283685
+	duration: 222.39999999840165 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 72364 time: 78.4292853
+	duration: 765.0000000012369 us
+	0xb
+	0x0
+	0x8f
+	0x25
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 72370 time: 78.4296382
+	duration: 205.10000000228956 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 72378 time: 78.4300838
+	duration: 308.1000000122458 us
+	CC Status Changed : set
+Write RECEIVE_DETECT  [0x2F] line: 72383 time: 78.4303936
+	duration: 133.90000000867985 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Write ALERT  [0x10] line: 72389 time: 78.4306786
+	duration: 161.59999999842967 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 72396 time: 78.4310245
+	duration: 217.000000006351 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72403 time: 78.4313723
+	duration: 216.80000000401378 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72411 time: 78.4317613
+	duration: 248.30000000974906 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72418 time: 78.4321109
+	duration: 216.80000000401378 us
+	0x4
+Read ALERT  [0x10] line: 72426 time: 78.4601882
+	duration: 292.50000000047294 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 72434 time: 78.460588
+	duration: 243.8000000068996 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 72441 time: 78.4609413
+	duration: 219.70000000237633 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 72447 time: 78.461235
+	duration: 162.40000000777854 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 72454 time: 78.4615792
+	duration: 216.50000000761338 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72461 time: 78.4619254
+	duration: 216.39999999933934 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72469 time: 78.4623602
+	duration: 295.40000001304634 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72476 time: 78.4627746
+	duration: 215.6999999982645 us
+	0x4
+Read ALERT  [0x10] line: 72484 time: 78.477471
+	duration: 251.29999998796393 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 72492 time: 78.4778992
+	duration: 243.79999999268875 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 72499 time: 78.4782525
+	duration: 219.99999999877673 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 72517 time: 78.4791594
+	duration: 757.0000000072241 us
+	0xb
+	0x0
+	0x8f
+	0x27
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 72523 time: 78.479467
+	duration: 161.39999999609245 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 72531 time: 78.4798819
+	duration: 243.69999999862557 us
+	CC Status Changed : set
+Write RECEIVE_DETECT  [0x2F] line: 72536 time: 78.4802528
+	duration: 132.50000000653017 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Write ALERT  [0x10] line: 72542 time: 78.4805344
+	duration: 159.79999999160555 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 72549 time: 78.4808771
+	duration: 215.19999999952688 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72556 time: 78.4812219
+	duration: 215.19999999952688 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72564 time: 78.4816051
+	duration: 244.09999998908916 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72571 time: 78.4819517
+	duration: 215.4000000018641 us
+	0x4
+Read ALERT  [0x10] line: 72579 time: 78.5027547
+	duration: 255.19999999801257 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 72587 time: 78.5031552
+	duration: 243.79999999268875 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 72594 time: 78.5035102
+	duration: 219.7999999964395 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 72600 time: 78.5038056
+	duration: 162.60000001011576 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 72607 time: 78.5041515
+	duration: 216.60000000167656 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72614 time: 78.5044994
+	duration: 216.69999999573974 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72622 time: 78.504884
+	duration: 243.8000000068996 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72629 time: 78.5052344
+	duration: 217.40000001102544 us
+	0x4
+Read ALERT  [0x10] line: 72637 time: 78.5201408
+	duration: 256.1999999954878 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 72645 time: 78.5205414
+	duration: 243.6000000045624 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 72652 time: 78.5208965
+	duration: 219.5000000000391 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 72670 time: 78.5218054
+	duration: 757.1000000012873 us
+	0xb
+	0x0
+	0x8f
+	0x29
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 72676 time: 78.5221499
+	duration: 161.39999999609245 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 72684 time: 78.5225422
+	duration: 254.800000007549 us
+	CC Status Changed : set
+Write RECEIVE_DETECT  [0x2F] line: 72689 time: 78.5228582
+	duration: 141.60000000629225 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Write ALERT  [0x10] line: 72695 time: 78.5231426
+	duration: 161.50000000436648 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 72702 time: 78.5235507
+	duration: 278.8999999978614 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72709 time: 78.5238971
+	duration: 214.99999999718966 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72717 time: 78.5242816
+	duration: 243.69999999862557 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72724 time: 78.5246306
+	duration: 215.9999999946649 us
+	0x4
+Read ALERT  [0x10] line: 72732 time: 78.558061
+	duration: 271.99999999538704 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 72740 time: 78.55846
+	duration: 241.79999999773827 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 72747 time: 78.5588118
+	duration: 216.80000000401378 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 72753 time: 78.5591048
+	duration: 160.19999999627998 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 72760 time: 78.5594491
+	duration: 215.29999999359006 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72767 time: 78.5598
+	duration: 219.70000000237633 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72775 time: 78.5602211
+	duration: 242.40000000474993 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72782 time: 78.5606544
+	duration: 300.30000000635937 us
+	0x4
+Read ALERT  [0x10] line: 72790 time: 78.575465
+	duration: 266.40000000099917 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 72798 time: 78.5759011
+	duration: 242.39999999053907 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 72805 time: 78.5762515
+	duration: 216.80000000401378 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 72823 time: 78.5771542
+	duration: 752.3999999961006 us
+	0xb
+	0x0
+	0x8f
+	0x2b
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 72829 time: 78.5774605
+	duration: 160.19999999627998 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 72837 time: 78.5778389
+	duration: 242.60000000708715 us
+	CC Status Changed : set
+Write ALERT  [0x10] line: 72843 time: 78.5782232
+	duration: 184.30000000080327 us
+	CC Status Changed : clear
+Write RECEIVE_DETECT  [0x2F] line: 72848 time: 78.5785643
+	duration: 172.30000000267864 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Read ROLE_CONTROL  [0x1A] line: 72855 time: 78.5789266
+	duration: 240.3999999955886 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72862 time: 78.5792915
+	duration: 235.69999999040192 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72870 time: 78.5797098
+	duration: 279.39999999659904 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 72877 time: 78.5800851
+	duration: 244.1000000033 us
+	0x4
+Read ALERT  [0x10] line: 72885 time: 78.6159717
+	duration: 295.70000000944674 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 72893 time: 78.6163979
+	duration: 290.6999999936488 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 72900 time: 78.6167498
+	duration: 216.49999999340253 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 72906 time: 78.6170442
+	duration: 161.49999999015563 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 72913 time: 78.617393
+	duration: 219.90000000471355 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 72920 time: 78.6177408
+	duration: 216.80000000401378 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 72928 time: 78.6181254
+	duration: 243.99999999502597 us
+	0x7f
+	0x2
+error processing line 72930
+expected: address, true, 0x73, false, 
+            got: address, false, 0x73, false, 
+bad line # 72930
+bad line # 72931
+error processing line 72933
+expected: address, true, 0x73, false, 
+            got: address, true, 0x73, true, 
+bad line # 72933
+bad line # 72934
+bad line # 72935
+Read ALERT  [0x10] line: 72943 time: 78.6333267
+	duration: 257.3999999953003 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 72951 time: 78.6337288
+	duration: 245.10000000077525 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 72958 time: 78.6340864
+	duration: 222.19999999606443 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 72976 time: 78.6350032
+	duration: 765.0000000012369 us
+	0xb
+	0x0
+	0x8f
+	0x2d
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 72982 time: 78.6353139
+	duration: 163.00000000057935 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 72990 time: 78.6357234
+	duration: 272.19999999772426 us
+	CC Status Changed : set
+Write ALERT  [0x10] line: 72996 time: 78.6360187
+	duration: 161.59999999842967 us
+	CC Status Changed : clear
+Write RECEIVE_DETECT  [0x2F] line: 73001 time: 78.6363232
+	duration: 134.10000001101707 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Read ROLE_CONTROL  [0x1A] line: 73008 time: 78.6366637
+	duration: 216.69999999573974 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 73015 time: 78.6370115
+	duration: 216.60000000167656 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 73023 time: 78.6373963
+	duration: 243.8000000068996 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 73030 time: 78.6377466
+	duration: 217.3000000027514 us
+	0x4
+Read ALERT  [0x10] line: 73038 time: 78.6737837
+	duration: 312.300000004484 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 73046 time: 78.6742403
+	duration: 322.90000000045893 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 73053 time: 78.674589
+	duration: 215.09999999125284 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 73059 time: 78.6748848
+	duration: 164.60000000506625 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 73066 time: 78.6752275
+	duration: 215.19999999952688 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 73073 time: 78.6755723
+	duration: 215.29999999359006 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 73081 time: 78.6759584
+	duration: 247.00000000166256 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 73088 time: 78.676305
+	duration: 215.4000000018641 us
+	0x4
+Read ALERT  [0x10] line: 73096 time: 78.6911075
+	duration: 257.3999999953003 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 73104 time: 78.6915098
+	duration: 245.2000000090493 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 73111 time: 78.6918674
+	duration: 222.30000000433847 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 73129 time: 78.692784
+	duration: 764.7999999988997 us
+	0xb
+	0x0
+	0x8f
+	0x2f
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 73135 time: 78.6931283
+	duration: 196.5999999953283 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 73143 time: 78.6936378
+	duration: 304.7000000009348 us
+	CC Status Changed : set
+Write RECEIVE_DETECT  [0x2F] line: 73148 time: 78.6939461
+	duration: 132.50000000653017 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Write ALERT  [0x10] line: 73154 time: 78.6942296
+	duration: 160.19999999627998 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 73161 time: 78.6945741
+	duration: 215.4000000018641 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 73168 time: 78.6949206
+	duration: 215.30000000780092 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 73176 time: 78.6953056
+	duration: 244.1999999973632 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 73183 time: 78.6956539
+	duration: 215.49999999592728 us
+	0x4
+Read ALERT  [0x10] line: 73191 time: 78.7318794
+	duration: 244.69999999610081 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 73199 time: 78.7322794
+	duration: 242.5999999928763 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 73206 time: 78.7326312
+	duration: 216.80000000401378 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 73212 time: 78.7329242
+	duration: 160.19999999627998 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 73219 time: 78.7332685
+	duration: 215.19999999952688 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 73226 time: 78.7336194
+	duration: 219.5999999941023 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 73234 time: 78.7340026
+	duration: 242.2999999964759 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 73241 time: 78.7343507
+	duration: 214.99999999718966 us
+	0x4
+Read ALERT  [0x10] line: 73249 time: 78.7493166
+	duration: 274.500000003286 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 73257 time: 78.7497586
+	duration: 242.40000000474993 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 73264 time: 78.7501088
+	duration: 216.60000000167656 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 73282 time: 78.7510114
+	duration: 752.3999999961006 us
+	0xb
+	0x0
+	0x8f
+	0x21
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 73288 time: 78.7513174
+	duration: 160.1000000022168 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 73296 time: 78.7516955
+	duration: 242.39999999053907 us
+	CC Status Changed : set
+Write ALERT  [0x10] line: 73302 time: 78.7519877
+	duration: 160.19999999627998 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 73309 time: 78.7523306
+	duration: 215.39999998765325 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 73316 time: 78.7527109
+	duration: 250.69999999516313 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Write RECEIVE_DETECT  [0x2F] line: 73321 time: 78.7531672
+	duration: 171.79999998973017 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Read ALERT_MASK  [0x12] line: 73329 time: 78.7535539
+	duration: 264.59999999417505 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 73336 time: 78.7539277
+	duration: 242.60000000708715 us
+	0x4
+Read ALERT  [0x10] line: 73344 time: 78.794061
+	duration: 243.40000000222517 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 73352 time: 78.7944371
+	duration: 242.2000000024127 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 73359 time: 78.7947858
+	duration: 215.19999999952688 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 73365 time: 78.7951317
+	duration: 164.99999999552983 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 73372 time: 78.7954744
+	duration: 214.99999999718966 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 73379 time: 78.795819
+	duration: 214.99999999718966 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 73387 time: 78.7962019
+	duration: 243.49999999628835 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 73394 time: 78.7965978
+	duration: 215.1000000054637 us
+	0x4
+Read ALERT  [0x10] line: 73402 time: 78.808629
+	duration: 270.29999999683696 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 73410 time: 78.8090285
+	duration: 243.49999999628835 us
+	RECV SOP Buffer Changed : set
+Read TCPC_CONTROL  [0x19] line: 73417 time: 78.8093829
+	duration: 220.69999999985157 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read READABLE_BYTE _COUNT [0x30] line: 73435 time: 78.8102917
+	duration: 758.5999999975002 us
+	0xb
+	0x0
+	0x8f
+	0x23
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 73441 time: 78.810663
+	duration: 225.40000000503824 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 73449 time: 78.8110411
+	duration: 242.39999999053907 us
+	CC Status Changed : set
+Write RECEIVE_DETECT  [0x2F] line: 73454 time: 78.8113478
+	duration: 132.79999998871972 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Write ALERT  [0x10] line: 73460 time: 78.8116294
+	duration: 160.00000000815362 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 73467 time: 78.8119722
+	duration: 215.19999999952688 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 73474 time: 78.812317
+	duration: 215.19999999952688 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 73482 time: 78.8127
+	duration: 243.8000000068996 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 73489 time: 78.8130466
+	duration: 215.20000001373774 us
+	0x4
+Read ALERT  [0x10] line: 73497 time: 78.8337384
+	duration: 305.80000000668406 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 73505 time: 78.8341426
+	duration: 246.8000000135362 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 73512 time: 78.8344973
+	duration: 219.5000000000391 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 73518 time: 78.8347944
+	duration: 164.30000000866585 us
+	CC Status Changed : clear
+error processing line 73520
+expected: address, true, 0x73, false, 
+            got: stop, , , , 
+bad line # 73520
+error processing line 73522
+expected: address, true, 0x73, false, 
+            got: address, true, 0x06, true, 
+bad line # 73522
+error processing line 73524
+expected: address, true, 0x73, false, 
+            got: address, true, 0x73, true, 
+bad line # 73524
+bad line # 73525
+bad line # 73526
+Read CC_STATUS  [0x1D] line: 73533 time: 78.8354981
+	duration: 220.99999999625197 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 73541 time: 78.8358854
+	duration: 246.6999999910513 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 73548 time: 78.8362733
+	duration: 219.5000000000391 us
+	0x4
+Read ALERT  [0x10] line: 73556 time: 78.8510698
+	duration: 258.8000000116608 us
+	RECV SOP Buffer Changed : set
+Read ALERT  [0x10] line: 73564 time: 78.8514731
+	duration: 246.40000000886175 us
+	RECV SOP Buffer Changed : set
+error processing line 73569
+expected: data, true, 0x73, true, 
+            got: data, , , , missing ack/nak
+bad line # 73569
+bad line # 73570
+error processing line 73572
+expected: address, true, 0x73, false, 
+            got: address, false, 0x28, true, 
+bad line # 73572
+bad line # 73573
+Read READABLE_BYTE _COUNT [0x30] line: 73591 time: 78.8527379
+	duration: 758.399999995163 us
+	0xb
+	0x0
+	0x8f
+	0x25
+	0x6
+	0xa1
+	0x1
+	0xff
+	0x9a
+	0x1
+	0x0
+	0x0
+Write ALERT  [0x10] line: 73597 time: 78.8530878
+	duration: 164.09999999211777 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 73605 time: 78.8534717
+	duration: 246.59999999698812 us
+	CC Status Changed : set
+Write ALERT  [0x10] line: 73611 time: 78.8538491
+	duration: 162.70000000417895 us
+	CC Status Changed : clear
+Write RECEIVE_DETECT  [0x2F] line: 73616 time: 78.8541558
+	duration: 136.29999999409392 us
+	Enable Hard Reset : set
+	Enable SOPDBG' : clear
+	Enable SOP" : set
+	Enable SOP' : set
+	Enable SOP : set
+Read ROLE_CONTROL  [0x1A] line: 73623 time: 78.8549246
+	duration: 218.00000000382624 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 73630 time: 78.8552739
+	duration: 218.09999999788943 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 73638 time: 78.8556598
+	duration: 245.19999999483844 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 73645 time: 78.8560109
+	duration: 218.30000000022665 us
+	0x4
+Read ALERT  [0x10] line: 73653 time: 78.9320408
+	duration: 280.5999999964115 us
+	CC Status Changed : set
+Read ALERT  [0x10] line: 73661 time: 78.9324406
+	duration: 243.8000000068996 us
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 73668 time: 78.9328574
+	duration: 283.3000000066477 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 73674 time: 78.9331971
+	duration: 208.49999999938973 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 73681 time: 78.9335398
+	duration: 215.30000000780092 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 73688 time: 78.9338872
+	duration: 217.80000000148902 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 73696 time: 78.9344587
+	duration: 432.29999999994106 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 73703 time: 79.0100245
+	duration: 217.5999999991518 us
+	0xff
+Read ALERT  [0x10] line: 73711 time: 79.0104293
+	duration: 242.2999999964759 us
+	Rx Buffer Overflow : set
+	recvd HARD RESET : set
+	RECV SOP Buffer Changed : set
+	CC Status Changed : set
+Read ALERT  [0x10] line: 73719 time: 79.010807
+	duration: 243.79999999268875 us
+	Rx Buffer Overflow : set
+	recvd HARD RESET : set
+	RECV SOP Buffer Changed : set
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 73726 time: 79.0111568
+	duration: 216.2999999910653 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read POWER_STATUS  [0x1E] line: 73733 time: 79.0115602
+	duration: 215.4000000018641 us
+	0xc
+error processing line 73739
+expected: data, false, , , 
+            got: data, true, , , 
+bad line # 73739
+bad line # 73740
+bad line # 73741
+bad line # 73742
+bad line # 73743
+Read TCPC_CONTROL  [0x19] line: 73750 time: 79.0125019
+	duration: 215.19999999952688 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 73756 time: 79.0127939
+	duration: 166.900000010628 us
+	RECV SOP Buffer Changed : clear
+Write TCPC_CONTROL  [0x19] line: 73761 time: 79.0152474
+	duration: 170.60000000412856 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+error processing line 73767
+expected: data, false, , , 
+            got: data, true, , , 
+bad line # 73767
+bad line # 73768
+bad line # 73769
+bad line # 73770
+bad line # 73771
+Read ALERT  [0x10] line: 73779 time: 79.0743094
+	duration: 398.7000000051921 us
+	Extended Status Changed : set
+	VBUS Sink Disconnect Detected : set
+	Rx Buffer Overflow : set
+	recvd HARD RESET : set
+	Power Status Changed : set
+	CC Status Changed : set
+Write ALERT  [0x10] line: 73785 time: 79.093331
+	duration: 160.00000000815362 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 73793 time: 79.0948635
+	duration: 243.49999999628835 us
+	Extended Status Changed : set
+	VBUS Sink Disconnect Detected : set
+	Rx Buffer Overflow : set
+	recvd HARD RESET : set
+	Power Status Changed : set
+	CC Status Changed : set
+Read TCPC_CONTROL  [0x19] line: 73800 time: 79.0952085
+	duration: 216.49999999340253 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 73806 time: 79.095496
+	duration: 161.39999999609245 us
+	Extended Status Changed : clear
+	VBUS Sink Disconnect Detected : clear
+	Rx Buffer Overflow : clear
+	recvd HARD RESET : clear
+	Power Status Changed : clear
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 73813 time: 79.0958365
+	duration: 218.09999999788943 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 73820 time: 79.0962282
+	duration: 218.09999999788943 us
+	Looking4Connection : TCPC is not actively looking for a connection
+	ConnectResult : TCPC is presenting Rd
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read POWER_STATUS  [0x1E] line: 73827 time: 79.0965762
+	duration: 218.09999999788943 us
+	0x8
+Write POWER_STATUS_MASK  [0x14] line: 73832 time: 79.097736
+	duration: 137.3999999998432 us
+	0x4
+Write ALERT_MASK  [0x12] line: 73838 time: 79.0980221
+	duration: 162.8999999923053 us
+	0x7f
+	0x2
+Read ALERT_MASK  [0x12] line: 73846 time: 79.0993166
+	duration: 244.89999999843803 us
+	0x7f
+	0x2
+Read POWER_STATUS_MASK  [0x14] line: 73853 time: 79.0998205
+	duration: 377.6000000073054 us
+	0x4
+error processing line 73859
+expected: data, false, , , 
+            got: data, true, , , 
+bad line # 73859
+bad line # 73860
+bad line # 73861
+bad line # 73862
+bad line # 73863
+Write POWER_STATUS_MASK  [0x14] line: 73868 time: 79.1007723
+	duration: 132.50000000653017 us
+	0x4
+Write ALERT  [0x10] line: 73874 time: 79.1010538
+	duration: 159.69999999754236 us
+	RECV SOP Buffer Changed : clear
+Read POWER_CONTROL  [0x1C] line: 73881 time: 79.1025645
+	duration: 216.49999999340253 us
+	0x30
+Write POWER_CONTROL  [0x1C] line: 73886 time: 79.1028325
+	duration: 158.90000000240434 us
+	0x70
+Read POWER_STATUS  [0x1E] line: 73893 time: 79.1031773
+	duration: 221.4999999949896 us
+	0x8
+Write ALERT_MASK  [0x12] line: 73899 time: 79.1035006
+	duration: 172.00000000627824 us
+	0x7f
+	0x2
+Read VENDOR_ID  [0x00] line: 73907 time: 79.1038741
+	duration: 245.30000000311247 us
+	0x16
+	0x4
+Read PRODUCT_ID  [0x02] line: 73915 time: 79.1042781
+	duration: 276.9999999969741 us
+	0x1
+	0xc3
+Read DEVICE_ID  [0x04] line: 73923 time: 79.1047008
+	duration: 295.0000000083719 us
+	0x1
+	0x0
+Read DEVICE_CAPABILITIES_1 [0x24] line: 73931 time: 79.1050762
+	duration: 244.99999999250122 us
+	0xdf
+	0x6e
+Read POWER_STATUS  [0x1E] line: 73938 time: 79.1054253
+	duration: 217.8999999955522 us
+	0x8
+Read TCPC_CONTROL  [0x19] line: 73945 time: 79.1058227
+	duration: 221.100000004526 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write TCPC_CONTROL  [0x19] line: 73950 time: 79.1060797
+	duration: 147.90000000175496 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write CONTROL_OUT_EN  [0xD2] line: 73955 time: 79.1063643
+	duration: 164.5999999908554 us
+	0x45
+Read FAULT_CONTROL  [0x1B] line: 73962 time: 79.1067037
+	duration: 218.09999999788943 us
+	0x2
+Write FAULT_CONTROL  [0x1B] line: 73967 time: 79.106973
+	duration: 160.3999999986172 us
+	0x2
+Read POWER_CONTROL  [0x1C] line: 73974 time: 79.1073138
+	duration: 219.09999999536467 us
+	0x70
+error processing line 73980
+expected: data, false, , , 
+            got: data, true, , , 
+bad line # 73980
+bad line # 73981
+bad line # 73982
+bad line # 73983
+bad line # 73984
+Write POWER_CONTROL  [0x1C] line: 73989 time: 79.1083198
+	duration: 158.70000000006712 us
+	0x30
+Write ALERT  [0x10] line: 73995 time: 79.1086605
+	duration: 219.09999999536467 us
+	RECV SOP Buffer Changed : clear
+Write COMMAND  [0x23] line: 74000 time: 79.1100765
+	duration: 134.10000001101707 us
+	0x33
+Read ALERT_MASK  [0x12] line: 74008 time: 79.1104435
+	duration: 243.8000000068996 us
+	0x7f
+	0x2
+Write ALERT_MASK  [0x12] line: 74014 time: 79.1107368
+	duration: 181.60000000477794 us
+	0x7f
+	0x82
+Read VBC_FAULT_CTL  [0xD7] line: 74021 time: 79.1111029
+	duration: 245.8000000018501 us
+	0x2b
+Write VBC_FAULT_CTL  [0xD7] line: 74026 time: 79.1113606
+	duration: 148.6000000028298 us
+	0x2b
+error processing line 74032
+expected: data, false, , , 
+            got: data, true, , , 
+bad line # 74032
+bad line # 74033
+bad line # 74034
+bad line # 74035
+bad line # 74036
+Write ALERT  [0x10] line: 74042 time: 79.1214934
+	duration: 162.70000000417895 us
+	RECV SOP Buffer Changed : clear
+error processing line 74048
+expected: data, false, , , 
+            got: data, true, , , 
+bad line # 74048
+bad line # 74049
+bad line # 74050
+bad line # 74051
+bad line # 74052
+Write ALERT  [0x10] line: 74058 time: 79.1287386
+	duration: 191.20000000327764 us
+	RECV SOP Buffer Changed : clear
+error processing line 74060
+expected: address, true, 0x73, false, 
+            got: address, true, 0x79, true, 
+bad line # 74060
+bad line # 74061
+error processing line 74063
+expected: address, true, 0x73, false, 
+            got: address, true, 0x73, true, 
+bad line # 74063
+bad line # 74064
+bad line # 74065
+bad line # 74066
+bad line # 74067
+bad line # 74068
+Write ALERT  [0x10] line: 74074 time: 79.135909
+	duration: 166.1000000012791 us
+	RECV SOP Buffer Changed : clear
+error processing line 74080
+expected: data, false, , , 
+            got: data, true, , , 
+bad line # 74080
+bad line # 74081
+bad line # 74082
+bad line # 74083
+bad line # 74084
+Write ALERT  [0x10] line: 74090 time: 79.143188
+	duration: 218.09999999788943 us
+	RECV SOP Buffer Changed : clear
+error processing line 74096
+expected: data, false, , , 
+            got: data, true, , , 
+bad line # 74096
+bad line # 74097
+bad line # 74098
+bad line # 74099
+bad line # 74100
+Write ALERT  [0x10] line: 74106 time: 79.1503499
+	duration: 170.09999999118008 us
+	RECV SOP Buffer Changed : clear
+error processing line 74112
+expected: data, false, , , 
+            got: data, true, , , 
+bad line # 74112
+bad line # 74113
+bad line # 74114
+bad line # 74115
+bad line # 74116
+Write ALERT  [0x10] line: 74122 time: 79.1576064
+	duration: 163.00000000057935 us
+	RECV SOP Buffer Changed : clear
+Write RECEIVE_DETECT  [0x2F] line: 74127 time: 79.1604035
+	duration: 144.09999999998035 us
+	Enable Hard Reset : clear
+	Enable SOPDBG' : clear
+	Enable SOP" : clear
+	Enable SOP' : clear
+	Enable SOP : clear
+error processing line 74133
+expected: data, false, , , 
+            got: data, true, , , 
+bad line # 74133
+bad line # 74134
+bad line # 74135
+bad line # 74136
+bad line # 74137
+Read TCPC_CONTROL  [0x19] line: 74144 time: 79.1688048
+	duration: 216.50000000761338 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Write ALERT  [0x10] line: 74150 time: 79.1691338
+	duration: 202.2999999979902 us
+	RECV SOP Buffer Changed : clear
+Write TCPC_CONTROL  [0x19] line: 74155 time: 79.1705915
+	duration: 160.1000000022168 us
+	Plug Orientation : CC1 PD, CC2 Vconn
+	TCPM in charge of DebugMode : ctrl by TCPM
+	Enable ALERT.CcStatus assertion when CC_STATUS.Looking4Connection changes : set
+Read ALERT_MASK  [0x12] line: 74163 time: 79.1709866
+	duration: 272.0000000095979 us
+	0x7f
+	0x82
+Write ALERT_MASK  [0x12] line: 74169 time: 79.171264
+	duration: 164.2000000003918 us
+	0x7f
+	0x82
+Write MESSAGE_HEADER _INFO [0x2E] line: 74174 time: 79.1725877
+	duration: 136.99999999516876 us
+	0x2
+Read POWER_CONTROL  [0x1C] line: 74181 time: 79.1739496
+	duration: 219.2000000036387 us
+	0x30
+Write POWER_CONTROL  [0x1C] line: 74186 time: 79.1741973
+	duration: 136.8000000070424 us
+	0x20
+error processing line 74192
+expected: data, false, , , 
+            got: data, true, , , 
+bad line # 74192
+bad line # 74193
+bad line # 74194
+bad line # 74195
+bad line # 74196
+Write ALERT  [0x10] line: 74202 time: 79.1765414
+	duration: 161.20000000796608 us
+	RECV SOP Buffer Changed : clear
+Read ALERT  [0x10] line: 74210 time: 79.176917
+	duration: 246.0999999982505 us
+	CC Status Changed : set
+Write ALERT  [0x10] line: 74216 time: 79.1772102
+	duration: 161.09999999969205 us
+	CC Status Changed : clear
+Read ROLE_CONTROL  [0x1A] line: 74223 time: 79.1775886
+	duration: 250.80000000343716 us
+	RP Value : Rp 3.0A
+	CC2 : Rd
+	CC1 : Rd
+Read CC_STATUS  [0x1D] line: 74230 time: 79.1779347
+	duration: 216.49999999340253 us
+	Looking4Connection : TCPC is looking for a connection
+	ConnectResult : TCPC is presenting Rp
+	CC2 State : SRC/SNK...
+	CC1 State : SRC/SNK...
+Read ALERT_MASK  [0x12] line: 74238 time: 79.1783176
+	duration: 243.69999999862557 us
+	0x7f
+	0x82
+Read POWER_STATUS_MASK  [0x14] line: 74245 time: 79.1786656
+	duration: 216.60000000167656 us
+	0x4
