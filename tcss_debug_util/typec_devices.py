@@ -1,0 +1,7 @@
+import json
+
+DP_DOCK = "DP_DOCK"
+DP_CABLE = "DP_CABLE"
+TBT3 = "TBT3"
+TBT4_USB4 = "TBT4_USB4"
+USB = "USB"
