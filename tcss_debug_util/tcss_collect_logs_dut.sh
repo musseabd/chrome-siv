@@ -51,7 +51,9 @@ run_cmd() {
 	cmd=$1
 	
 	echo $cmd | tee -a $log_file # print cmd in the log file
-	eval "$cmd 2>&1 | tee -a $log_file" # execute cmd and append to to log file
+	eval "$cmd 2>&1 >> $log_file" # execute cmd and append to to log file
+	# uncomment the following if you want the command output printed on the screen as well
+	# eval "$cmd 2>&1 | tee -a $log_file" # execute cmd and append to to log file
 	
 	# print separator
 	echo $cmd_separator | tee -a $log_file

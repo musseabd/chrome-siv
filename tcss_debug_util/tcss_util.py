@@ -2,6 +2,18 @@ import logging
 
 import dut_log
 
+
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKCYAN = '\033[96m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 def val_to_str_default(key, val):
 	return str(val)
 
@@ -12,7 +24,8 @@ def print_title(title):
 
 def print_result(title:str, test_pass:bool):
 	print(dut_log.log_file_cmd_start_indicator)
-	print("{}: {}".format("PASS" if test_pass else "FAIL", title))
+	pass_or_fail_str = f"{bcolors.OKGREEN}PASS" if test_pass else f"{bcolors.FAIL}FAIL"
+	print(f'{pass_or_fail_str} : {title} {bcolors.ENDC}')
 	print(dut_log.log_file_cmd_start_indicator)
 
 def print_actual_vs_expected(title, expected, actual, val_to_str=None, attr_width=13):
@@ -42,7 +55,7 @@ def print_actual_vs_expected(title, expected, actual, val_to_str=None, attr_widt
 
 		if expected_val != actual[key]:
 			test_pass = False
-			print(" <<<<<<<<<<<<<<<<<<<<<<<<<<   FAIL", end="") # don't print new line to avoid 2 new lines incase of fail
+			print(f"{bcolors.FAIL} <<<<<<<<<<<<<<<<<<<<<<<<<<   FAIL {bcolors.ENDC}", end="") # don't print new line to avoid 2 new lines incase of fail
 			# raise Exception(f"ec mux_info: expected: {key}:{expected_val} but got {key}:{dut_muxinfo[key]}")
 
 		print()
@@ -58,7 +71,7 @@ def print_result_string_in_cmd_output(title, expected_str, cmd_output):
 
 	result_str = "expected string {} in cmd output".format("is" if test_pass else "is NOT")
 	
-	result_str += "" if test_pass else " <<<<<<<<<<<<<<<<<<<<<<<<<<   FAIL"
+	result_str += "" if test_pass else f"{bcolors.FAIL} <<<<<<<<<<<<<<<<<<<<<<<<<<   FAIL {bcolors.ENDC}"
 
 	print(result_str)
 
